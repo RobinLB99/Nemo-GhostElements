@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-from gi.repository import Nemo, GObject
+from gi.repository import Nemo, GObject, Gtk
 
 from gettext import ngettext,  bindtextdomain, textdomain
 
@@ -104,16 +104,18 @@ class NemoHide(Nemo.MenuProvider, GObject.GObject):
 	def _create_hide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Hide file(s)' menu item."""
 		item = Nemo.MenuItem(name="NemoHide::HideFile",
-		                         label=ngettext("_Hide File", "_Hide Files", len(files)),
-		                         tip=ngettext("Hide this file", "Hide these files", len(files)))
+		                         label=ngettext("_Hide element", "_Hide elements", len(files)),
+		                         tip=ngettext("Hide this element", "Hide those elements", len(files)))
+		item.set_property("icon", "view-conceal-symbolic")
 		item.connect("activate", self._hide_run, files, hidden_path, hidden)
 		return item
 
 	def _create_unhide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Unhide file(s)' menu item."""
 		item = Nemo.MenuItem(name="NemoHide::UnhideFile",
-		                         label=ngettext("Un_hide File", "Un_hide Files", len(files)),
-		                         tip=ngettext("Unhide this file", "Unhide these files", len(files)))
+		                         label=ngettext("_Show element", "_Show elements", len(files)),
+		                         tip=ngettext("Show this element", "Show those elements", len(files)))
+		item.set_property("icon", "view-reveal-symbolic")
 		item.connect("activate", self._unhide_run, files, hidden_path, hidden)
 		return item
 
