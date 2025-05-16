@@ -1,0 +1,29 @@
+# Archivos compilados de traducción
+locale/
+*.mo
+
+# Archivos temporales
+*~
+*.bak
+*.swp
+
+# Archivos de construcción/empaquetado
+dist/
+build/
+*.tar.gz
+*.deb
+*.changes
+*.build
+*.dsc
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+.Python
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
