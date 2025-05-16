@@ -1,66 +1,64 @@
-Nemo Hide
-=============
 
-Extension for Nemo to hide files without renaming them. 
+# Nemo-Hide
 
-Adapted from Nautilus Hide Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com> https://bitbucket.org/brunonova/nautilus-hide/src#clone
+Una extensión para el gestor de archivos Nemo que permite ocultar y mostrar archivos sin necesidad de renombrarlos, utilizando el archivo `.hidden` para gestionar la visibilidad de los elementos.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+## Historia y Reconocimientos
 
+Este proyecto es un fork de una extensión abandonada, con actualizaciones para compatibilidad moderna y características adicionales:
 
+- **Nautilus Hide** - Proyecto original creado por Bruno Nova ([@brunomb](https://github.com/brunomb)) 
+- **Nemo-Hide** - Primera adaptación para Nemo por Emmanuel C. (KDB2)
 
-Description
------------
+Debido a la falta de mantenimiento durante años, este fork revitaliza la extensión con nuevas funciones mientras preserva la idea original. Agradecemos sinceramente a los desarrolladores originales por sentar las bases de esta herramienta útil.
 
-Nemo Hide is a simple Python extension for the Nemo file manager that
-adds options to the right-click menu to hide or unhide files.
+## Características
 
-The extension hides the files without renaming them (i.e. without prefixing a
-dot ('.') or suffixing a tilde ('~')).
-It does that by adding their names to the folder's `.hidden` file, which
-Nemo reads to hide the listed files the next time you open or refresh the
-folder.
+- Ocultar archivos y carpetas sin renombrarlos (sin agregar punto inicial)
+- Interfaz integrada en el menú contextual de Nemo con iconos intuitivos
+- Soporte para múltiples idiomas (español, francés, portugués)
+- Compatible con Python 3 y sistemas modernos
+- Sistema de instalación simplificado
 
+## Mejoras en esta versión
 
-Details
--------
+- Interfaz mejorada con iconos (view-conceal-symbolic y view-reveal-symbolic)
+- Terminología actualizada de "ficheros" a "elementos" para mayor claridad
+- Correcciones de compatibilidad para Python 3
+- Traducción completa a español y actualización de traducciones existentes
+- Sistema de compilación simplificado mediante scripts bash
 
-In Linux, and other UNIX like systems, a file with a name that starts by a
-dot ('.') is considered a *hidden file*.
-Some file managers also hide files that end with a tilde ('~'), with are
-considered *backup files*.
+## Instalación
 
-To hide an existing file, you would have to rename it. That's not always
-feasible or desirable.
-
-Some file managers, like Nemo, offer an **alternative way of hiding files**:
-you create a text file that lists, line-by-line, the names of all the files you
-want to hide and save it in that folder with the name `.hidden`. The next time
-you open or refresh that folder, those files will not be visible.
-
-This extension simply uses that `.hidden` file to hide files. When you choose to
-hide a file, its name is added to the folder's `.hidden` file. When you choose
-to unhide it, the name is removed.
-You will have to refresh the folder to see the result.
-
-
-Installation
-------------
+La extensión se instala fácilmente:
 
 ```bash
-chmod +x install.sh
 sudo ./install.sh
-nemo -q
 ```
-Uninstallation
---------------
+
+Después de la instalación, ejecutar:
+
 ```bash
-chmod +x uninstall.sh
-sudo .unistall.sh
 nemo -q
 ```
 
+## Requisitos
 
+- Nemo (gestor de archivos)
+- Python 3
+- xautomation (para la funcionalidad de actualización)
 
+## Desinstalación
+
+```bash
+sudo ./uninstall.sh
+nemo -q
+```
+
+## Licencia
+
+Este software se distribuye bajo la misma licencia que los proyectos originales (GNU GPL v3), respetando el trabajo de los desarrolladores originales.
+
+---
+
+_Si eres uno de los desarrolladores originales y deseas contribuir o tienes alguna preocupación sobre este fork, no dudes en contactarnos._
