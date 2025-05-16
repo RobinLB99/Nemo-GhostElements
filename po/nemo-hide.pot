@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nemo-hide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-09 12:02+0100\n"
+"POT-Creation-Date: 2023-12-01 12:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,26 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: extension/nemo-hide.py:99
-msgid "_Hide File"
-msgid_plural "_Hide Files"
+#: src/nemo-hide.py:52
+msgid "_Hide element"
+msgid_plural "_Hide elements"
 msgstr[0] ""
 msgstr[1] ""
 
-#: extension/nemo-hide.py:100
-msgid "Hide this file"
-msgid_plural "Hide these files"
+#: src/nemo-hide.py:53
+msgid "Hide this element"
+msgid_plural "Hide those elements"
 msgstr[0] ""
 msgstr[1] ""
 
-#: extension/nemo-hide.py:107
-msgid "Un_hide File"
-msgid_plural "Un_hide Files"
+#: src/nemo-hide.py:61
+msgid "_Show element"
+msgid_plural "_Show elements"
 msgstr[0] ""
 msgstr[1] ""
 
-#: extension/nemo-hide.py:108
-msgid "Unhide this file"
-msgid_plural "Unhide these files"
+#: src/nemo-hide.py:62
+msgid "Show this element"
+msgid_plural "Show those elements"
 msgstr[0] ""
 msgstr[1] ""

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nemo-hide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-09 12:02+0100\n"
-"PO-Revision-Date: 2015-05-22 01:16+0200\n"
+"POT-Creation-Date: 2023-12-01 12:00+0100\n"
+"PO-Revision-Date: 2023-12-01 12:00+0100\n"
 "Last-Translator: Okki <okki@gnomelibre.fr>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -21,26 +21,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: extension/nemo-hide.py:100
-msgid "Hide this file"
-msgid_plural "Hide these files"
-msgstr[0] "Cacher ce fichier"
-msgstr[1] "Cacher ces fichiers"
+#: src/nemo-hide.py:52
+msgid "_Hide element"
+msgid_plural "_Hide elements"
+msgstr[0] "_Cacher cet élément"
+msgstr[1] "_Cacher ces éléments"
 
-#: extension/nemo-hide.py:107
-msgid "Un_hide File"
-msgid_plural "Un_hide Files"
-msgstr[0] "Ne _plus cacher ce fichier"
-msgstr[1] "Ne _plus cacher ces fichiers"
+#: src/nemo-hide.py:53
+msgid "Hide this element"
+msgid_plural "Hide those elements"
+msgstr[0] "Cacher cet élément"
+msgstr[1] "Cacher ces éléments"
 
-#: extension/nemo-hide.py:108
-msgid "Unhide this file"
-msgid_plural "Unhide these files"
-msgstr[0] "Ne plus cacher ce fichier"
-msgstr[1] "Ne plus cacher ces fichiers"
+#: src/nemo-hide.py:61
+msgid "_Show element"
+msgid_plural "_Show elements"
+msgstr[0] "_Afficher cet élément"
+msgstr[1] "_Afficher ces éléments"
 
-#: extension/nemo-hide.py:99
-msgid "_Hide File"
-msgid_plural "_Hide Files"
-msgstr[0] "_Cacher ce fichier"
-msgstr[1] "_Cacher ces fichiers"
+#: src/nemo-hide.py:62
+msgid "Show this element"
+msgid_plural "Show those elements"
+msgstr[0] "Afficher cet élément"
+msgstr[1] "Afficher ces éléments"
