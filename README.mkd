@@ -52,12 +52,14 @@ Installation
 ```bash
 chmod +x install.sh
 sudo ./install.sh
+nemo -q
 ```
 Uninstallation
 --------------
 ```bash
 chmod +x uninstall.sh
 sudo .unistall.sh
+nemo -q
 ```
 
 
