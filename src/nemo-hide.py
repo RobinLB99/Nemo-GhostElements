@@ -98,7 +98,14 @@ class NemoHide(Nemo.MenuProvider, GObject.GObject):
 			locale.setlocale(locale.LC_ALL, "")
 		except:
 			pass
-		bindtextdomain("Nemo-hide", "@CMAKE_INSTALL_PREFIX@/share/locale")
+		# First try system-installed locale directory
+		if os.path.exists("/usr/share/locale/es/LC_MESSAGES/Nemo-hide.mo"):
+			bindtextdomain("Nemo-hide", "/usr/share/locale")
+		else:
+			# Then try local directory relative to the script
+			script_dir = os.path.dirname(os.path.abspath(__file__))
+			locale_dir = os.path.join(os.path.dirname(script_dir), "locale")
+			bindtextdomain("Nemo-hide", locale_dir)
 		textdomain("Nemo-hide")
 
 	def _create_hide_item(self, files, hidden_path, hidden):
