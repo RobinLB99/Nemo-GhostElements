@@ -49,9 +49,16 @@ You will have to refresh the folder to see the result.
 Installation
 ------------
 
-dpkg-buildpackage
+```bash
+chmod +x install.sh
+sudo ./install.sh
+```
+Uninstallation
+--------------
+```bash
+chmod +x uninstall.sh
+sudo .unistall.sh
+```
 
-cd ..
 
-sudo dpkg -i *.deb
 
