@@ -8,7 +8,7 @@ Una extensión para el gestor de archivos Nemo que permite ocultar y mostrar arc
 Este proyecto es un fork de una extensión abandonada, con actualizaciones para compatibilidad moderna y características adicionales:
 
 - **Nautilus Hide** - Proyecto original creado por Bruno Nova ([@brunomb](https://github.com/brunomb)) 
-- **Nemo-Hide** - Primera adaptación para Nemo por Emmanuel C. (KDB2)
+- **Nemo-Hide** - Primera adaptación para Nemo por Emmanuel C. ([@KDB2](https://github.com/KDB2))
 
 Debido a la falta de mantenimiento durante años, este fork revitaliza la extensión con nuevas funciones mientras preserva la idea original. Agradecemos sinceramente a los desarrolladores originales por sentar las bases de esta herramienta útil.
 
