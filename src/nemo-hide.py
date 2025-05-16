@@ -102,7 +102,7 @@ class NemoHide(Nemo.MenuProvider, GObject.GObject):
 		textdomain("Nemo-hide")
 
 	def _create_hide_item(self, files, hidden_path, hidden):
-		"""Creates the 'Hide file(s)' menu item."""
+		"""Creates the 'Hide item(s)' menu option."""
 		item = Nemo.MenuItem(name="NemoHide::HideFile",
 		                         label=ngettext("_Hide element", "_Hide elements", len(files)),
 		                         tip=ngettext("Hide this element", "Hide those elements", len(files)))
@@ -111,7 +111,7 @@ class NemoHide(Nemo.MenuProvider, GObject.GObject):
 		return item
 
 	def _create_unhide_item(self, files, hidden_path, hidden):
-		"""Creates the 'Unhide file(s)' menu item."""
+		"""Creates the 'Show element(s)' menu option."""
 		item = Nemo.MenuItem(name="NemoHide::UnhideFile",
 		                         label=ngettext("_Show element", "_Show elements", len(files)),
 		                         tip=ngettext("Show this element", "Show those elements", len(files)))
