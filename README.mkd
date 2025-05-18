@@ -30,10 +30,10 @@ Debido a la falta de mantenimiento durante años, este fork revitaliza la extens
 
 ## Demo
 Ocultar elemento (archivo/directorio)
-![Ocultar elemento](https://drive.google.com/file/d/18k7j1zc8Xmk3EYUabjERpGR3Ibs_occZ/view)
+![Ocultar elemento](https://media.giphy.com/media/lCSF7GtsbH9RkCh1do/giphy.gif)
 
 Mostrar elemento
-![Mostrar elemento](https://drive.google.com/file/d/1EHc0kHP5lP9CW87rnkM_2n3d2mGOmoRM/view)
+![Mostrar elemento](https://media.giphy.com/media/VFLOE0uwYrWvryKRdd/giphy.gif)
 
 ## Instalación
 
