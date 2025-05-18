@@ -28,6 +28,13 @@ Debido a la falta de mantenimiento durante años, este fork revitaliza la extens
 - Traducción completa a español y actualización de traducciones existentes
 - Sistema de compilación simplificado mediante scripts bash
 
+## Demo
+Ocultar elemento (archivo/directorio)
+![Ocultar elemento](https://drive.google.com/file/d/18k7j1zc8Xmk3EYUabjERpGR3Ibs_occZ/view?usp=drive_link)
+
+Mostrar elemento
+![Mostrar elemento](https://drive.google.com/file/d/1EHc0kHP5lP9CW87rnkM_2n3d2mGOmoRM/view?usp=drive_link)
+
 ## Instalación
 
 La extensión se instala fácilmente:
