@@ -71,4 +71,4 @@ Este software se distribuye bajo la misma licencia que los proyectos originales 
 
 ---
 
-_Si eres uno de los desarrolladores originales y deseas contribuir o tienes alguna preocupación sobre este fork, no dudes en contactarnos._
+_Si eres uno de los desarrolladores originales y deseas contribuir o tienes alguna preocupación sobre este fork, no dudes en contactarme._
