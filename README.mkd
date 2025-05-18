@@ -1,5 +1,5 @@
 
-# Nemo-Invisible
+# Nemo-GhostElements
 
 Una extensión para el gestor de archivos Nemo que permite ocultar y mostrar elementos del sistema de archivos sin necesidad de renombrarlos, utilizando el archivo `.hidden` para gestionar la visibilidad de los elementos.
 
