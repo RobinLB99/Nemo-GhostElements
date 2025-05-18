@@ -10,7 +10,7 @@ Este proyecto es un fork de una extensión abandonada, con actualizaciones para 
 - **Nautilus Hide** - Proyecto original creado por Bruno Nova ([@brunomb](https://github.com/brunomb)) 
 - **Nemo-Hide** - Primera adaptación para Nemo por Emmanuel C. ([@KDB2](https://github.com/KDB2))
 
-Debido a la falta de mantenimiento durante años, este fork revitaliza la extensión con nuevas funciones mientras preserva la idea original. Agradecemos sinceramente a los desarrolladores originales por sentar las bases de esta herramienta útil.
+Debido a la falta de mantenimiento durante años, este fork revitaliza la extensión con nuevas funciones mientras preserva la idea original. Agradece sinceramente a los desarrolladores originales por sentar las bases de esta herramienta útil.
 
 ## Características
 
