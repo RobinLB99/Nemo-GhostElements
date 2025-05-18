@@ -15,7 +15,7 @@ Debido a la falta de mantenimiento durante años, este fork revitaliza la extens
 ## Características
 
 - Ocultar archivos y carpetas sin renombrarlos (sin agregar punto inicial)
-- Soporte de ocultamiento y visialización multiples elementos simultaneos.
+- Soporte de ocultamiento y dar visivilidad a multiples elementos simultaneos.
 - Interfaz integrada en el menú contextual de Nemo con iconos intuitivos
 - Soporte para múltiples idiomas (español, francés, portugués)
 - Compatible con Python 3 y sistemas modernos
